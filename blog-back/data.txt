@@ -1,0 +1,17 @@
+db = database name = hifi-blog
+tables :=>
+
+users :
+    id
+    name ;
+    email;
+    password;
+
+posts :
+    p_id;
+    u_id;
+    p_name;
+    p_desc;
+    p_content;
+    create_at;
+

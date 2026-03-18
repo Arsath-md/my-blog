@@ -1,0 +1,27 @@
+/* src/index.css or src/App.css */
+@import "tailwindcss";
+
+@layer components{
+    .nav-item li {
+        @apply hover:bg-blue-500 hover:rounded p-2 hover:text-white list-none font-bold text-lg
+    }
+    login input{
+    @apply border-b focus:border-b-1 focus:border-blue-500 outline-none placeholder:font-bold p-5
+     }
+     .post-custom div{
+        @apply   p-3 w-full max-w-xs  rounded shadow-md
+     }
+    .list-arng li{
+        @apply md:flex md:flex-row md:justify-center md:items-center md:gap-1 
+    } 
+
+
+    .btn-posts button{ 
+        @apply rounded ring text-black bg-white p-1 shadow-inner hover:shadow-md hover:shadow-black active:shadow-black active:text-white w-full mx-3
+    }
+
+
+}
+
+
+
