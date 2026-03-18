@@ -124,7 +124,8 @@ export default function Dash() {
                     key={ko}
                     src={`http://localhost:3000/uploads/${val.img}`}
                     alt="pic"
-                    className="w-full h-50 object-cover rounded"
+                    className="w-full h-50 object-cover rounded active:bg-green-600"
+
                   />
                 ))}
 
